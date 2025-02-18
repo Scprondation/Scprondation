@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scprondation</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    
+   
+   
+   
+   
+   
+   
+   
+       
+    
+    
+    
+    <!-- Шапка -->
+    <header id="header" class="header">
+        <h1>scprondation</h1>
+    </header>
+
+
+
+
+
+
+<div class="content">
+    <!-- Контент -->
+    <main id="content">
+        
+        
+        
+        
+        
+        <!-- Проекты -->
+        <section class="projects">
+            <h2>Проекты</h2>
+            <div class="projects-container">
+                <div class="project" onclick="openProject(0)">
+                    <img src="img/bk.png">
+                    <h3>бактерии онлайн</h3>
+                </div>
+                <div class="project" onclick="openProject(1)">
+                    <img src="img/scpgram.png">
+                    <h3>Scpgram</h3>
+                </div>
+            </div>
+        </section>
+        
+        
+        
+        
+
+        <!-- Обо мне -->
+        <section class="about">
+            <h2>соц. сети</h2>
+            <div class="social-links">
+                <a href="https://youtube.com/@scprondation0?si=0z03-S164sniYaPd" target="_blank" class="youtube">YouTube</a>
+                <a href="https://t.me/gdprivatserver" target="_blank" class="telegram">Telegram</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Окно проекта -->
+    <div id="project-modal" class="modal">
+        <button class="close-btn" onclick="closeProject()">Назад</button>
+        <img id="project-img" src="">
+        <h2 id="project-name"></h2>
+        <div id="screenshots" class="screenshots"></div>        
+        <p id="project-description"></p>
+    </div>
+    
+    
+    
+    <div>
+        <h4>Привет, я разработчик игр. У меня пока что нет своей студии/компании, но я надеюсь что она скоро появиться. В основном все мои игры и приложения вдохновлены другими успешными проектами разработчиков. для создания "бактерии онлайн" я вдохновлялся играми по типу "worm.is the game", "ogar.io" и подобными. На уроке биологии мне пришло в голову создать такую игру где будеь бактерии поедать другие особи если у них больше "днк" (это внутри игровые очки) чем у других, то они их съедят. По началу игра выглядела сыро, но сейчас она для 2025 года тоже выглядит сыро, но она стала лучше в раз 10, стало меньше лагов/вылетов и тд. Мне нравится разробатывать игры, в будующем я планирую выпустить бактерии онлай в play market. Я никогда не добавлю рекламу или донат в свои игры так что наслождайтесь)</h4>
+        
+        
+        
+        <h6>©2021-2025</h2>
+        
+    </div>
+  </div>
+  
+  
+  
+  <div class="video">
+        <video autoplay loop muted id="video">
+  <source src="video.mp4" type="video/mp4">
+</video
+    </div>
+    
+</body>
+</html>
